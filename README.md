@@ -15,3 +15,7 @@ Homebrew installs into its own folders, and updates only the copy it installed. 
 ## Where these files come from
 
 `Formula/aggrega.rb` is written by every Aggrega release, from a template in [aggrega-ai/aggrega-cli](https://github.com/aggrega-ai/aggrega-cli), and names that release's binaries and their digests. Do not edit it by hand: the next release replaces it. A change to the formula is made to the template there.
+
+## License
+
+The Aggrega Homebrew tap is released under the Apache License, Version 2.0; the full text is in the [`LICENSE`](LICENSE) file.
