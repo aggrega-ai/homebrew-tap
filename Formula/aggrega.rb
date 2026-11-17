@@ -8,23 +8,23 @@ class Aggrega < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/aggrega-ai/aggrega-cli/releases/download/v0.9.2/aggrega-0.9.2-darwin-arm64"
-      sha256 "f44ad0c2a6a98185d5b19d1b2c52551b10d0bfcb5c04f5e0a40499e0e523fb05"
+      url "https://github.com/aggrega-ai/aggrega-cli/releases/download/v0.9.3/aggrega-0.9.3-darwin-arm64"
+      sha256 "cad9604fb9b25090cd241e36672ad6db1f6a0104959e6483e406fae3a434e683"
     end
     on_intel do
-      url "https://github.com/aggrega-ai/aggrega-cli/releases/download/v0.9.2/aggrega-0.9.2-darwin-amd64"
-      sha256 "fed81b2a164ab4eb996b53efabd4f1bfe28c54a4f4ca22ad33bd41a805268b38"
+      url "https://github.com/aggrega-ai/aggrega-cli/releases/download/v0.9.3/aggrega-0.9.3-darwin-amd64"
+      sha256 "b3d96bcd8790e4c04133573e45cc5b7bf71ba49c4110e8b0c309c8d59c77f8f1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/aggrega-ai/aggrega-cli/releases/download/v0.9.2/aggrega-0.9.2-linux-arm64"
-      sha256 "124e6e18e89a70c439c8e1c99d62fdacfef92541a3901f93919306afd3726bc8"
+      url "https://github.com/aggrega-ai/aggrega-cli/releases/download/v0.9.3/aggrega-0.9.3-linux-arm64"
+      sha256 "bec7b505e44753875899890bd73096fa1637f00c64b44cb7e94d9abde0242d12"
     end
     on_intel do
-      url "https://github.com/aggrega-ai/aggrega-cli/releases/download/v0.9.2/aggrega-0.9.2-linux-amd64"
-      sha256 "582fa18a0e6eddbb306e9a13a1123965ad6e547b436b04c575b47eb02f4662c8"
+      url "https://github.com/aggrega-ai/aggrega-cli/releases/download/v0.9.3/aggrega-0.9.3-linux-amd64"
+      sha256 "8b4e0272db9391ffdaf4d968f34e9ba1a28667a296a94dc88f9086dfc898b2e5"
     end
   end
 
